@@ -1,0 +1,162 @@
+* {
+	font-family: Poppins;
+	box-sizing: border-box;
+}
+
+*,
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	min-height: 100vh;
+}
+
+.hero-wrapper {
+	background-color: #f5d5a2;
+	width: 100%;
+	height: 800px;
+}
+
+.hero-text-wrapper {
+	width: 80%;
+	margin: auto;
+	margin-top: 10vh;
+	overflow: hidden;
+	display: flex;
+	justify-content: space-between;
+}
+
+.hero-text {
+	width: 50%;
+	max-width: 700px;
+	min-width: 350px;
+}
+
+h1 {
+	font-weight: bold;
+	font-size: 64px;
+	line-height: 74px;
+	color: #850b42;
+}
+
+input {
+	box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.2);
+	border-radius: 10px;
+	border: none;
+	width: 100%;
+	padding: 12px 0 12px 24px;
+	font-weight: normal;
+	font-size: 26px;
+	color: #c4c4c4;
+	margin-top: 20px;
+}
+
+.hero-img {
+	width: 50%;
+	display: none;
+}
+
+@media (max-width: 1350px) {
+	.hero-img {
+		display: none;
+	}
+}
+
+.popular-items {
+	width: 80%;
+	margin: auto;
+}
+
+h2 {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 48px;
+	line-height: 55px;
+	color: #850b42;
+	margin-top: 100px;
+}
+
+.popular-cards-container {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 60px;
+	flex-wrap: wrap;
+	gap: 20px;
+}
+
+.dorayaki-card {
+	border-radius: 10px;
+	overflow: hidden;
+	width: 200px;
+	height: 150px;
+	position: relative;
+}
+
+.dorayaki-card img {
+	max-width: 550px;
+}
+
+.dorayaki-card h3 {
+	font-weight: bold;
+	font-size: 18px;
+	color: #ffffff;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	float: right;
+	text-align: end;
+	width: fit-content;
+	backdrop-filter: blur(15px);
+	-webkit-backdrop-filter: blur(15px);
+}
+
+.riwayat-wrapper {
+	width: 80%;
+	margin: auto;
+}
+
+.riwayat-container {
+	width: 100%;
+	background: #f9f9f9;
+	border: 2px solid rgba(196, 196, 196, 0.2);
+	box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.2);
+	border-radius: 10px;
+	margin-top: 60px;
+	margin-bottom: 150px;
+	overflow: hidden;
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+td,
+th {
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+
+td,
+td a {
+	color: #4f3649;
+}
+
+tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+tr:hover {
+	background-color: #ddd;
+}
+
+th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: #850b42;
+	color: white;
+}

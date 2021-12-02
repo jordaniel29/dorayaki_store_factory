@@ -1,0 +1,66 @@
+html,
+body {
+	padding: 0;
+	margin: 0;
+}
+.add-dorayaki {
+	margin-top: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	margin-bottom: 150px;
+}
+.content-title {
+	padding-bottom: 8px;
+	font-weight: 600;
+	font-size: 200%;
+}
+.content-input {
+	display: flex;
+	flex-direction: column;
+	width: 25%;
+	padding-bottom: 15px;
+}
+.input-title {
+	font-size: 18px;
+}
+.text-input {
+	border: 2px solid #4f3649;
+	border-radius: 8px;
+	height: 41px;
+	font-size: 18px;
+	font-weight: 300;
+	padding-left: 10px;
+}
+@media only screen and (max-width: 800px) {
+	.text-input {
+		font-size: 10px;
+	}
+}
+.file-input {
+	text-indent: initial;
+}
+.file-input::-webkit-file-upload-button {
+	border: 2px solid #e8531f;
+	border-radius: 8px;
+	height: 41px;
+	background-color: white;
+	color: #e8531f;
+	cursor: pointer;
+}
+.submit {
+	padding-top: 10px;
+}
+.submit-btn {
+	border: 0;
+	font-weight: 600;
+	font-size: 18px;
+	text-align: center;
+	color: #ffffff;
+	background: #850b42;
+	border-radius: 8px;
+	width: 213px;
+	height: 41px;
+	cursor: pointer;
+}

@@ -1,0 +1,128 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+.container {
+	align-items: center;
+	width: 80%;
+	margin: auto;
+	margin-bottom: 150px;
+}
+.content-title {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	font-size: 100%;
+}
+.content-detail {
+	height: 500px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	border-radius: 8px;
+	overflow: hidden;
+	position: relative;
+	margin-bottom: 10px;
+}
+.counter {
+	position: absolute;
+	display: flex;
+	font-weight: 600;
+	font-size: 36px;
+	color: #ffffff;
+	margin-left: 45px;
+	backdrop-filter: blur(30px);
+	-webkit-backdrop-filter: blur(30px);
+}
+.varian {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	margin-right: 45px;
+	font-weight: 600;
+	font-size: 36px;
+	color: #ffffff;
+	backdrop-filter: blur(30px);
+	-webkit-backdrop-filter: blur(30px);
+}
+.content-foot {
+	display: flex;
+	padding-top: 10px;
+	justify-content: space-between;
+}
+.button-price {
+	display: flex;
+	width: 30%;
+	height: 55px;
+	column-gap: 7px;
+	align-items: center;
+}
+.counter-btn {
+	width: 30%;
+	height: 100%;
+	background: #e8531f;
+	border-radius: 8px;
+	font-weight: 600;
+	font-size: 25px;
+	text-align: center;
+	color: #ffffff;
+	border: none;
+	cursor: pointer;
+}
+.harga {
+	font-weight: 600;
+	font-size: 175%;
+	color: #4f3649;
+}
+.submit-btn {
+	width: 30%;
+	height: 55px;
+}
+.beli-btn {
+	height: 100%;
+	width: 100%;
+	background: #850b42;
+	border-radius: 8px;
+	font-weight: 600;
+	font-size: 23px;
+	text-align: center;
+	color: #ffffff;
+	border: none;
+	cursor: pointer;
+}
+.stok-input {
+	height: 90%;
+	width: 40%;
+	border-radius: 8px;
+	font-weight: 600;
+	font-size: 25px;
+	text-align: center;
+	border: solid #808080;
+}
+.deskripsi-harga {
+	text-align: center;
+	width: 30%;
+	font-weight: 600;
+	font-size: 25px;
+}
+@media only screen and (max-width: 1280px) {
+	.submit-btn,
+	.button-price,
+	.deskripsi-harga {
+		width: 300px;
+	}
+}
+@media only screen and (max-width: 800px) {
+	.submit-btn,
+	.button-price {
+		width: 80%;
+	}
+	.deskripsi-harga {
+		width: 100%;
+	}
+	.content-foot {
+		flex-flow: row wrap;
+		justify-content: space-around;
+		height: 140px;
+	}
+}

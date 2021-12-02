@@ -1,0 +1,165 @@
+* {
+	font-family: Poppins;
+	box-sizing: border-box;
+}
+
+*,
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	min-height: 100vh;
+	display: flex;
+}
+
+@media (max-width: 767px) {
+	body {
+		display: flex;
+	}
+}
+
+h1 {
+	font-weight: bold;
+	font-size: 64px;
+	line-height: 74px;
+	color: #850b42;
+}
+
+h2 {
+	font-weight: bold;
+	font-size: 46px;
+	line-height: 69px;
+	color: #850b42;
+}
+
+h4 {
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 31px;
+	color: #850b42;
+}
+
+p {
+	font-weight: 500;
+	font-size: 13px;
+	line-height: 19px;
+	color: #4f3649;
+}
+
+p a {
+	color: #4f3649;
+}
+
+form {
+	margin-top: 36px;
+}
+
+.login {
+	flex: 1;
+	max-width: 700px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.login-internal {
+	width: 70%;
+	max-width: 450px;
+}
+
+.text-field {
+	font-style: normal;
+	font-weight: 300;
+	font-size: 13px;
+	line-height: 19px;
+	color: #808080;
+	border: 2px solid #850b42;
+	border-radius: 8px;
+	padding: 10px 0;
+	padding-left: 17px;
+	margin-bottom: 20px;
+	width: 100%;
+}
+
+.warning {
+	margin-top: 20px;
+}
+
+.submit-btn {
+	text-align: center;
+	color: #ffffff;
+	background: #850b42;
+	border-radius: 8px;
+	width: 100%;
+	border: none;
+	font-size: 18px;
+	line-height: 27px;
+	font-weight: 600;
+	margin: 8px 0;
+	padding: 8px 0;
+}
+
+.jumbotron {
+	flex: 1.2;
+	background-color: #f5d5a2;
+	overflow: hidden;
+}
+
+.jumbo-reg {
+	background-color: #850b42;
+}
+
+.jumbo-text {
+	max-width: 650px;
+	width: 50%;
+	margin-top: min(20%, 250px);
+	margin-left: 10%;
+}
+
+.jumbo-text h1 {
+	margin-bottom: 30px;
+}
+
+.jumbo-text.text-reg h1 {
+	color: #ffffff;
+}
+
+.jumbo-text.text-reg h4 {
+	color: #ffffff;
+}
+
+@media (max-width: 1440px) {
+	.jumbo-text {
+		width: 70%;
+	}
+}
+
+@media (max-width: 767px) {
+	body {
+		flex-direction: column-reverse;
+	}
+
+	.jumbo-text {
+		padding: 20% 0;
+		margin-top: 0;
+	}
+
+	.login {
+		margin: 200px 0;
+	}
+}
+
+.dorayaki-illustration {
+	background-image: url("../images/dorayaki-ilus.png");
+	height: 80%;
+	width: 80%;
+	float: right;
+	transform: translate(100px, 100px);
+	overflow: hidden;
+	max-width: 892px;
+	background-repeat: no-repeat;
+}
